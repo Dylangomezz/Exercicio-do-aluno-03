@@ -16,5 +16,6 @@ public class questao4 {
                 System.out.println(i);
             }
         }
+        scan.close();
     }
 }

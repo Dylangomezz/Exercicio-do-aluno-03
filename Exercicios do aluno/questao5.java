@@ -14,5 +14,6 @@ public class questao5 {
         }   
         double media = soma / 10;
         System.out.println("A média aritmética dos valores digitados é: " + media);
+        scan.close();
     }
 }
