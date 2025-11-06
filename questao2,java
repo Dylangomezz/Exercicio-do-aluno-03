@@ -1,0 +1,22 @@
+//Modifique o exercício anterior para aceitar somente valores maiores que 0 para N. Caso o valor informado (para N) não seja maior que 0, deverá ser lido um novo valor para N. 
+
+    import java.util.Scanner;
+
+    public class questao2 {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            int N;
+                      
+            do {
+                System.out.print("Digite um valor inteiro maior que zero: ");
+                N = scanner.nextInt();
+            } while (N <= 0);
+            
+            System.out.println("Valores inteiros entre 1 e " + N + ":");
+            for (int i = 1; i <= N; i++) {
+                System.out.println(i);
+            }
+            
+            scanner.close();
+        }
+    }
